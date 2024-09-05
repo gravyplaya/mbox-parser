@@ -1,6 +1,7 @@
 import express from 'express';
 import multer from 'multer';
-import { Mbox } from 'node-mbox';
+import pkg from 'node-mbox';
+const { Mbox } = pkg;
 import { simpleParser } from 'mailparser';
 import fs from 'fs';
 import stream from 'stream';
